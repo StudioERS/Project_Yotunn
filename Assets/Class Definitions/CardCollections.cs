@@ -6,25 +6,25 @@ namespace Cards
     internal class Hand
     {
 
-        private List<Carte> _cartes;
-        public List<Carte> Cartes
+        private List<Carte> _lsCartes;
+        public List<Carte> lsCartes
         {
-            get { return _cartes; }
+            get { return _lsCartes; }
         }
 
-        public Hand(List<Carte> cartes)
+        public Hand(List<Carte> pLsCartes)
         {
-            _cartes = new List<Carte>(cartes);
+            _lsCartes = new List<Carte>(pLsCartes);
         }
         public Hand()
         {
-            _cartes = new List<Carte>();
+            _lsCartes = new List<Carte>();
         }
 
         //Surcharge de l'opérateur +. Avec ceci, Hand + Carte et Hand += Carte retournent la main avec la carte ajoutée.
         public static Hand operator +(Hand hand, Carte newCard)
         {
-            hand._cartes.Add(newCard);
+            hand._lsCartes.Add(newCard);
 
             return hand;
         }

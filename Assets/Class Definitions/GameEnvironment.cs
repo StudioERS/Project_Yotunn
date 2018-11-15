@@ -16,7 +16,7 @@ namespace Cards
         {
             Hand result = new Hand();
 
-            foreach (Carte carte in lstPermanents.Cartes)
+            foreach (Carte carte in lstPermanents.lsCartes)
             {
                 if (carte is T)
                 {
@@ -31,7 +31,7 @@ namespace Cards
             Hand result = new Hand();
 
 
-            foreach (Carte carte in lstPermanents.Cartes)
+            foreach (Carte carte in lstPermanents.lsCartes)
             {
                 if (predicate(carte) == true)
                 {
@@ -46,7 +46,7 @@ namespace Cards
             Hand result = new Hand();
 
 
-            foreach (Carte carte in location.Cartes)
+            foreach (Carte carte in location.lsCartes)
             {
                 if (carte is T)
                 {
