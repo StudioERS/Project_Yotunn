@@ -76,17 +76,17 @@
     <None Include="Assets\Assets\Sprites\Swords-knives-daggers-sharp-blades-flat-icon-set-isolated-vector-illustration\License free.txt" />
     <None Include="Assets\Assets\Texture\Grunge-paper-background\License free.txt" />
     <None Include="Assets\Assets\Fonts\almendra\OFL.txt" />
+    <Reference Include="UnityEditor.StandardEvents">
+      <HintPath>C:/Users/Yan Ha/Desktop/GitHub/Project_Yotunn/Project Yotunn 2D/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.TextMeshPro.Editor">
+      <HintPath>C:/Users/Yan Ha/Desktop/GitHub/Project_Yotunn/Project Yotunn 2D/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
+    </Reference>
     <Reference Include="Unity.PackageManagerUI.Editor">
       <HintPath>C:/Users/Yan Ha/Desktop/GitHub/Project_Yotunn/Project Yotunn 2D/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro">
       <HintPath>C:/Users/Yan Ha/Desktop/GitHub/Project_Yotunn/Project Yotunn 2D/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.TextMeshPro.Editor">
-      <HintPath>C:/Users/Yan Ha/Desktop/GitHub/Project_Yotunn/Project Yotunn 2D/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEditor.StandardEvents">
-      <HintPath>C:/Users/Yan Ha/Desktop/GitHub/Project_Yotunn/Project Yotunn 2D/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.AIModule">
       <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>
