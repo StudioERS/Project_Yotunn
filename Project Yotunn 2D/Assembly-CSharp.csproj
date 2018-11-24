@@ -69,9 +69,7 @@
     <Compile Include="Assets\Assets\Scripts\CardScript\Dragging\DraggingBehavior.cs" />
     <Compile Include="Assets\Assets\Scripts\CardScript\Dragging\DraggingHerited.cs" />
     <Compile Include="Assets\Assets\Scripts\CardScript\RotationCarte.cs" />
-    <Compile Include="Assets\Assets\Scripts\GameController.cs" />
     <Compile Include="Assets\Assets\Scripts\GameEngine\GameController.cs" />
-    <Compile Include="Assets\Assets\Scripts\RotationCarte.cs" />
     <Compile Include="Assets\Assets\Scripts\UI\Outlines by N Yoda\BoxOutline.cs" />
     <Compile Include="Assets\Assets\Scripts\UI\Outlines by N Yoda\CircleOutline.cs" />
     <Compile Include="Assets\Assets\Scripts\UI\Outlines by N Yoda\ListPool.cs" />

@@ -161,7 +161,7 @@ GameObject:
   - component: {fileID: 114299756720516762}
   - component: {fileID: 114807023450045952}
   m_Layer: 0
-  m_Name: Text
+  m_Name: CardNameText
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -437,7 +437,7 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1880508399272694}
-  m_LocalRotation: {x: 0, y: 0.013089582, z: 0, w: 0.99991435}
+  m_LocalRotation: {x: 0, y: -0.061919555, z: 0, w: 0.99808115}
   m_LocalPosition: {x: 8.19, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
@@ -445,7 +445,7 @@ Transform:
   - {fileID: 4349643154645802}
   m_Father: {fileID: 0}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 1.5, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: -7.1, z: 0}
 --- !u!65 &65724457916394126
 BoxCollider:
   m_ObjectHideFlags: 1
@@ -631,7 +631,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 3
+  m_Text: 0
 --- !u!114 &114267468263039198
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -685,7 +685,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Jotun Enforcer
+  m_Text: --
 --- !u!114 &114340597062959634
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -762,7 +762,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 3
+  m_Text: 0
 --- !u!114 &114455953574705238
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -782,7 +782,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Sprite: {fileID: 21300000, guid: 90ef6b7835131a34292d2d8f5e986031, type: 3}
+  m_Sprite: {fileID: 0}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -866,9 +866,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'If Jotun Enforcer defeats a creature, it may attack again
-
-'
+  m_Text: --
 --- !u!114 &114501549839939572
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -975,7 +973,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1880508399272694}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ba6580ec0d114dd4f8a7b69de22dc050, type: 3}
+  m_Script: {fileID: 11500000, guid: 134c3a84a2ad4384689010a5d1aef65b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   CarteFace: {fileID: 224428168420791838}
@@ -1111,7 +1109,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 10
+  m_Text: 0
 --- !u!222 &222156187944127968
 CanvasRenderer:
   m_ObjectHideFlags: 1
