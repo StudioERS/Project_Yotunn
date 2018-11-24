@@ -66,6 +66,7 @@
     <Compile Include="Assets\Assets\Class Definitions\GameEnvironment.cs" />
     <Compile Include="Assets\Assets\Class Definitions\Interfaces.cs" />
     <Compile Include="Assets\Assets\Scripts\GameController.cs" />
+    <Compile Include="Assets\Assets\Scripts\RotationCarte.cs" />
     <None Include="Assets\Assets\Sprites\Blue-Abstract-Logo-in-Modern-Design\License premium.txt" />
     <None Include="Assets\Assets\Sprites\Blue-Abstract-Logo-in-Modern-Design\License free.txt" />
     <None Include="Assets\Assets\Sprites\heart\License free.txt" />
